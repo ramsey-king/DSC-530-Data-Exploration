@@ -26,6 +26,9 @@ rmse median 0.14780782670654136
 mean error xbar: -7.797349288766782e-06
 mean error median: -0.0003924548647055904
 
+Based on these results, one can conclude that as the number of iterations increase, the error does get ever so slightly closer to zero.
+In the 1,000 iteration scenario, the error was already nearly 0.  Overall, x bar and the median are unbiased estimates of the mean.
+
 Default case:  Sample size 7 and 1,000 iterations
 Experiment 2
 mean error biased -0.15488319520052954
@@ -54,32 +57,41 @@ mean error unbiased -0.00028044035985637887
 RMSE estimates1 0.16784713928754771
 RMSE estimates2 0.16963787855339918
 
+Based on these results, estimates1 (biased s-squared) yields a lower MSE than estimates2 (unbiased s-squared n-1). 
+
+
+Default case:  sample size 10 and 1,000 iterations
 Experiment 3
 rmse L 0.8967179115445979
 rmse Lm 1.2444103701885691
 mean error L 0.281842512903533
 mean error Lm 0.2949788091848105
+
 standard error 0.15802692674982063
 confidence interval (0.2292118737134127, 0.7634362076691714)
-Writing estimation1.pdf
-Writing estimation1.png
+Writing estimation1.pdf (was renamed to estimationlam2n10m1000.pdf)
+Writing estimation1.png (was renamed to estimationlam2n10m1000.png)
 
+Sample size is 100 and 1,000 iterations
 Experiment 3
 rmse L 0.208112571180183
 rmse Lm 0.29544632300114754
 mean error L 0.015601605079773415
 mean error Lm 0.02446502441952041
+
 standard error 0.0515168526534611
 confidence interval (0.41362307824212124, 0.584772226902394)
-Writing estimation1.pdf
-Writing estimation1.png
+Writing estimation1.pdf (was renamed to estimationlam2n100m1000.pdf)
+Writing estimation1.png (was renamed to estimationlam2n100m1000.png)
 
+Sample size is 1,000 and 10,000 iterations
 Experiment 3
 rmse L 0.0630500371733731
 rmse Lm 0.0917773412333466
 mean error L 0.002025585602173198
 mean error Lm 0.0024858878981114515
+
 standard error 0.015813883458638562
 confidence interval (0.4739261597274096, 0.5262872413356197)
-Writing estimation1.pdf
-Writing estimation1.png
+Writing estimation1.pdf (was renamed to estimationlam2n1000m10000.pdf)
+Writing estimation1.png (was renamed to estimationlam2n1000m10000.png)
